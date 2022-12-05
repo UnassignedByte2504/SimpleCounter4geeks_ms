@@ -1,0 +1,68 @@
+.ButtonsContainerMS {
+  display: flex;
+  justify-content: center;
+}
+.StartButtonMS {
+  width: 8rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(73, 192, 37);
+  transition: 0.2s;
+  border: none;
+  margin: 0.25rem;
+}
+.StartButtonMS:hover {
+  width: 8rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(248, 143, 6);
+  margin: 0.25rem;
+}
+
+.StopButtonMS {
+  width: 8rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border: none;
+  transition: 0.2s;
+  margin: 0.25rem;
+}
+.StopButtonMS:hover {
+  width: 8rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(248, 143, 6);
+  border: none;
+  margin: 0.25rem;
+}
+
+.ResetButtonMS {
+  width: 8rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(98, 0, 255);
+  border: none;
+  transition: 0.2s;
+  margin: 0.25rem;
+}
+.ResetButtonMS:hover {
+  width: 8rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(248, 143, 6);
+  border: none;
+  margin: 0.25rem;
+}
