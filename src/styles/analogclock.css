@@ -1,0 +1,200 @@
+.AnalogClock {
+    grid-area: analogclock;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(270deg, #f0f0f0, gray, #ddd, white);
+    border-radius: 100%;
+    padding: 2rem;
+    outline: 5px solid rgb(121, 121, 121);
+    border: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
+  }
+  
+  .ClockContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .hand {
+    position: absolute;
+    z-index: 5;
+    width: 4px;
+    height: 105px;
+    background: #333;
+    margin-top: 50%;
+    transform-origin: 50% 72px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: 3px -5px 10px black;
+  }
+  
+  .second-hand{
+    background-color: rgb(112, 0, 0);
+    z-index: 0;
+  }
+  .clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border: 1px saddlebrown solid;
+    background:radial-gradient(rgb(17, 14, 214), black);
+    border-radius: 100%;
+    z-index: 1;
+    border: #f0f0f0 2px solid;
+    outline: 1px solid gray;
+  }
+  .clock::before{
+    content:"Quartz";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+    margin-bottom: 180px;
+    color:white;
+  }
+  
+  .clockHands {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 2;
+    margin-bottom: 35%;
+  }
+  .clock-face {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    margin-bottom: 50px;
+    color: rgb(49, 49, 49);
+  }
+  
+  .I {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(30deg);
+  }
+  .II {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(60deg);
+  }
+  .III {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(90deg);
+  }
+  .IV {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(120deg);
+  }
+  .V {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(150deg);
+  }
+  .VI {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(180deg);
+  }
+  .VII {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(210deg);
+  }
+  .VIII {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(240deg);
+  }
+  .IX {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(270deg);
+  }
+  .X {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(300deg);
+  }
+  .XI {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(330deg);
+  }
+  .XII {
+    height: 235px;
+    font: 26px Monaco, MonoSpace;
+    position: absolute;
+    width: 20px;
+    margin: none;
+    transform-origin: bottom center;
+    transform: rotate(360deg);
+  }
+  

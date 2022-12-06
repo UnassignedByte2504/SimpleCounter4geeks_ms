@@ -2,7 +2,7 @@ import React from "react";
 import AnalogClock from "./AnalogClock.jsx";
 import SimpleCounter from "./SimpleCounter.jsx";
 import Timer from "./Timer.jsx";
-import Countdown from "./Countdown.jsx";
+import Chronometer from "./Chronometer.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -15,7 +15,7 @@ const Home = () => {
         <SimpleCounter />
       </div>
       <div className="Countdown">
-        <Countdown />
+        <Chronometer />
       </div>
       <div className="AnalogClock">
         <AnalogClock />

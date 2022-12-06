@@ -1,0 +1,87 @@
+.Timer {
+    border-radius: 10px;
+    border: 1px solid #333;
+    grid-area: timer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(150deg, pink, gray, #ddd, pink);
+  }
+  
+  .TimerContainer{
+    display: flex;
+    height: 90%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(300deg, #f0f0f0, gray, #ddd, white);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #333;
+    padding: 1rem;
+  }
+  .TimerInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .TimerInputs input{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
+    background: linear-gradient(270deg, #f0f0f0, gray, #ddd, white);
+    outline: 2px solid rgb(121, 121, 121);
+    margin: 0.5rem;
+    transition: 200ms linear;
+  }
+  
+  .TimerInputs input:focus{
+    outline: 2px solid rgb(121, 121, 121);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
+    background: linear-gradient(270deg, #f0f0f0, gray, #ddd, white);
+    transform: scale(1.05);
+  }
+  
+  .TimerInputs input:active{
+    outline: 2px solid rgb(121, 121, 121);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
+    background: linear-gradient(270deg, #f0f0f0, gray, #ddd, white);
+    transform: scale(1.05);
+  }
+  
+  .TimerInputs input:hover{
+    outline: 2px solid rgb(121, 121, 121);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
+    background: linear-gradient(270deg, #f0f0f0, gray, #ddd, white);
+    transform: scale(1.05);
+  }
+  
+  .TimerInputs input:disabled{
+    outline: 2px solid rgb(121, 121, 121);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
+    background: linear-gradient(270deg, #f0f0f0, gray, #ddd, white);
+    transform: scale(1.05);
+  }
+  .HistoryTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 4rem;
+  }
+  .TimerHistory{
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: 10rem;
+    width: 100%;
+    margin-top: 1rem;
+    border-top: #071038 1px solid;
+    padding-top: 1rem;
+  }

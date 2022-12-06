@@ -2,13 +2,8 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 function AnalogClock() {
-  //this is going to be an analog clock, so we need to get the time and move the hands around
 
-  //we need to get the time
   const [time, setTime] = useState(new Date());
-  const [hourHand, setHourHand] = useState(0);
-  const [minuteHand, setMinuteHand] = useState(0);
-  const [secondHand, setSecondHand] = useState(0);
   const [hourHandStyle, setHourHandStyle] = useState({});
   const [minuteHandStyle, setMinuteHandStyle] = useState({});
   const [secondHandStyle, setSecondHandStyle] = useState({});

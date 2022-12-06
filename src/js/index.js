@@ -5,6 +5,9 @@ import ReactDOM from "react-dom";
 // include your styles into the webpack bundle
 import "../styles/index.css";
 import "../styles/buttons.css";
+import "../styles/timer.css";
+import "../styles/analogclock.css";
+import "../styles/chronometer.css";
 
 //import your own components
 import Home from "./component/home.jsx";

@@ -1,68 +1,50 @@
-.ButtonsContainerMS {
+.TimerBtnGroup {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-.StartButtonMS {
-  width: 8rem;
-  border-radius: 1rem;
-  padding: 0.3rem;
-  color: white;
-  font-weight: bold;
-  background-color: rgb(73, 192, 37);
-  transition: 0.2s;
-  border: none;
-  margin: 0.25rem;
-}
-.StartButtonMS:hover {
-  width: 8rem;
-  border-radius: 1rem;
-  padding: 0.3rem;
-  color: white;
-  font-weight: bold;
-  background-color: rgb(248, 143, 6);
-  margin: 0.25rem;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 0 10px;
 }
 
-.StopButtonMS {
-  width: 8rem;
-  border-radius: 1rem;
-  padding: 0.3rem;
-  color: white;
-  font-weight: bold;
-  background-color: red;
-  border: none;
-  transition: 0.2s;
-  margin: 0.25rem;
-}
-.StopButtonMS:hover {
-  width: 8rem;
-  border-radius: 1rem;
-  padding: 0.3rem;
-  color: white;
-  font-weight: bold;
-  background-color: rgb(248, 143, 6);
-  border: none;
-  margin: 0.25rem;
+.TimerButton{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #333;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
+  background: linear-gradient(270deg, #f0f0f0, gray, #ddd, white);
+  outline: 2px solid rgb(121, 121, 121);
+  margin: 1rem;
+  transition: .5s linear;
 }
 
-.ResetButtonMS {
-  width: 8rem;
-  border-radius: 1rem;
-  padding: 0.3rem;
-  color: white;
-  font-weight: bold;
-  background-color: rgb(98, 0, 255);
-  border: none;
-  transition: 0.2s;
-  margin: 0.25rem;
+.TimerButton:hover{
+  background: linear-gradient(270deg, #ddd, gray, #f0f0f0, white);
 }
-.ResetButtonMS:hover {
-  width: 8rem;
-  border-radius: 1rem;
-  padding: 0.3rem;
-  color: white;
-  font-weight: bold;
-  background-color: rgb(248, 143, 6);
-  border: none;
-  margin: 0.25rem;
+
+.TimerButton:active{
+  background: linear-gradient(270deg, #f0f0f0, gray, #ddd, white);
+}
+
+.TimerButton:disabled{
+  background: linear-gradient(270deg, #ddd, gray, #f0f0f0, white);
+  opacity: 0.5;
+}
+
+.Set{
+  width: 5rem;
+  height: 5rem;
+}
+
+.Chrono{
+  width:50px;
+  height:50px;
 }
